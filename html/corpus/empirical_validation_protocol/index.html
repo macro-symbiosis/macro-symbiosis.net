@@ -1,0 +1,1146 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://macro-symbiosis.net/corpus/empirical_validation_protocol/">
+      
+      
+        <link rel="prev" href="../aperture_generation_guidance/">
+      
+      
+        <link rel="next" href="../tier_1_ontological_grammars/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Empirical validation protocol - macro-symbiosis</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#experimental-architecture-multi-model-consensus-basis-portability-out-of-distribution-empirical-validation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="macro-symbiosis" class="md-header__button md-logo" aria-label="macro-symbiosis" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            macro-symbiosis
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Empirical validation protocol
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="macro-symbiosis" class="md-nav__button md-logo" aria-label="macro-symbiosis" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    macro-symbiosis
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../status/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Status
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Spine
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Spine
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../spine/foundational-manifold-companion-2026-10-20-r10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Companion (r10)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Corpus
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Corpus
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aperture_generation_guidance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aperture generation guidance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Empirical validation protocol
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Empirical validation protocol
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0-scope-framing-and-expectations" class="md-nav__link">
+    <span class="md-ellipsis">
+      0. Scope, Framing, and Expectations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-architectural-premise-formal-hypotheses" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Architectural Premise &amp; Formal Hypotheses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Architectural Premise & Formal Hypotheses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-separation-of-the-invariant-spine-mathcalt-from-evolvable-aperture-basis-sets-mathcale_km" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Separation of the Invariant Spine (\(\mathcal{T}\)) from Evolvable Aperture Basis Sets (\(\{\mathcal{E}_{k,m}\}\))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-primary-hypothesis-h_1-the-orthogonal-functor-cross-substrate-invariance-hypothesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Primary Hypothesis (\(H_1\): The Orthogonal Functor &amp; Cross-Substrate Invariance Hypothesis)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-null-hypothesis-h_0-post-hoc-associative-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Null Hypothesis (\(H_0\): Post-Hoc Associative Compliance)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-conditioning-corpus-and-withheld-annexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Conditioning Corpus and Withheld Annexes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-four-stage-validation-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. The Four-Stage Validation Architecture
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. The Four-Stage Validation Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stage-i-rotating-peer-audit-iterative-shear-elimination" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stage I — Rotating Peer Audit &amp; Iterative Shear Elimination
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-ii-cross-architecture-theoretical-consensus-ablation-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stage II — Cross-Architecture Theoretical Consensus &amp; Ablation Benchmarks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-iii-blind-out-of-distribution-convergence-on-held-out-multimodal-field-data-mathcald_mathrmtest" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stage III — Blind Out-of-Distribution Convergence on Held-Out Multimodal Field Data (\(\mathcal{D}_{\mathrm{test}}\))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-iv-longitudinal-physical-ecological-biometric-sensor-falsification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stage IV — Longitudinal Physical, Ecological &amp; Biometric Sensor Falsification
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-epistemic-hierarchy-how-and-to-what-extent-this-protocol-validates-the-mathematical-skeleton" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Epistemic Hierarchy: How and To What Extent This Protocol Validates the Mathematical Skeleton
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Epistemic Hierarchy: How and To What Extent This Protocol Validates the Mathematical Skeleton">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-level-1-inter-architectural-deductive-observational-invariance-tested-in-stages-ii-iii" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Level 1: Inter-Architectural Deductive &amp; Observational Invariance (Tested in Stages II &amp; III)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-level-2-mechanistic-representational-invariance-in-neural-substrates" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Level 2: Mechanistic &amp; Representational Invariance in Neural Substrates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-level-3-external-physical-biometric-sensor-falsification-tested-in-stage-iv" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Level 3: External Physical &amp; Biometric Sensor Falsification (Tested in Stage IV)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-complete-stage-i-stage-ii-audit-package-inventory-twelve-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Complete Stage I / Stage II Audit Package Inventory (Twelve Files)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tier_1_ontological_grammars/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tier 1, ontological grammars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tier_2_abiotic_continuum_physics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tier 2, abiotic continuum physics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tier_3_ecological_living_networks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tier 3, ecological living networks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tier_4_somatic_contemplative_interiority/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tier 4, somatic and contemplative interiority
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tier_5_expressive_collective_symbiosis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tier 5, expressive and collective symbiosis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../licence/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Licence
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0-scope-framing-and-expectations" class="md-nav__link">
+    <span class="md-ellipsis">
+      0. Scope, Framing, and Expectations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-architectural-premise-formal-hypotheses" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Architectural Premise &amp; Formal Hypotheses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Architectural Premise & Formal Hypotheses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-separation-of-the-invariant-spine-mathcalt-from-evolvable-aperture-basis-sets-mathcale_km" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Separation of the Invariant Spine (\(\mathcal{T}\)) from Evolvable Aperture Basis Sets (\(\{\mathcal{E}_{k,m}\}\))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-primary-hypothesis-h_1-the-orthogonal-functor-cross-substrate-invariance-hypothesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Primary Hypothesis (\(H_1\): The Orthogonal Functor &amp; Cross-Substrate Invariance Hypothesis)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-null-hypothesis-h_0-post-hoc-associative-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Null Hypothesis (\(H_0\): Post-Hoc Associative Compliance)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-conditioning-corpus-and-withheld-annexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Conditioning Corpus and Withheld Annexes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-four-stage-validation-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. The Four-Stage Validation Architecture
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. The Four-Stage Validation Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stage-i-rotating-peer-audit-iterative-shear-elimination" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stage I — Rotating Peer Audit &amp; Iterative Shear Elimination
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-ii-cross-architecture-theoretical-consensus-ablation-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stage II — Cross-Architecture Theoretical Consensus &amp; Ablation Benchmarks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-iii-blind-out-of-distribution-convergence-on-held-out-multimodal-field-data-mathcald_mathrmtest" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stage III — Blind Out-of-Distribution Convergence on Held-Out Multimodal Field Data (\(\mathcal{D}_{\mathrm{test}}\))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-iv-longitudinal-physical-ecological-biometric-sensor-falsification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stage IV — Longitudinal Physical, Ecological &amp; Biometric Sensor Falsification
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-epistemic-hierarchy-how-and-to-what-extent-this-protocol-validates-the-mathematical-skeleton" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Epistemic Hierarchy: How and To What Extent This Protocol Validates the Mathematical Skeleton
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Epistemic Hierarchy: How and To What Extent This Protocol Validates the Mathematical Skeleton">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-level-1-inter-architectural-deductive-observational-invariance-tested-in-stages-ii-iii" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Level 1: Inter-Architectural Deductive &amp; Observational Invariance (Tested in Stages II &amp; III)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-level-2-mechanistic-representational-invariance-in-neural-substrates" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Level 2: Mechanistic &amp; Representational Invariance in Neural Substrates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-level-3-external-physical-biometric-sensor-falsification-tested-in-stage-iv" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Level 3: External Physical &amp; Biometric Sensor Falsification (Tested in Stage IV)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-complete-stage-i-stage-ii-audit-package-inventory-twelve-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Complete Stage I / Stage II Audit Package Inventory (Twelve Files)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="experimental-architecture-multi-model-consensus-basis-portability-out-of-distribution-empirical-validation">Experimental Architecture: Multi-Model Consensus, Basis Portability &amp; Out-of-Distribution Empirical Validation<a class="headerlink" href="#experimental-architecture-multi-model-consensus-basis-portability-out-of-distribution-empirical-validation" title="Permanent link">&para;</a></h1>
+<p><strong>Document ID:</strong> <code>empirical_validation_protocol.md</code><br />
+<strong>Companion Reference:</strong> <code>foundational-manifold-2026-10-20-r7.json</code>, <code>foundational-manifold-companion-2026-10-20-r10.md</code>, and <code>aperture_generation_guidance.md</code></p>
+<hr />
+<h2 id="0-scope-framing-and-expectations">0. Scope, Framing, and Expectations<a class="headerlink" href="#0-scope-framing-and-expectations" title="Permanent link">&para;</a></h2>
+<p><strong>What this protocol is.</strong> A framework for testing one hypothesis, <span class="arithmatex">\(H_1\)</span> (§1.2): that diverse disciplines and traditions independently formalized operational calculi that map through Spine <span class="arithmatex">\(\mathcal{T}\)</span> to the same structural problems of open systems. It also gives initial descriptions of empirical methods that later studies may adopt, refine, or replace.</p>
+<p><strong>Three kinds of claim.</strong>
+* <strong>(A) Verified:</strong> the internal consistency of Spine <span class="arithmatex">\(\mathcal{T}\)</span>, established only to the extent of the witnesses and checks in <code>foundational-manifold-companion-2026-10-20-r10.md</code> §5.
+* <strong>(B) Testable hypotheses:</strong> <span class="arithmatex">\(H_1\)</span>, the Stage II–III convergence predictions, and the Stage IV sensor predictions. Each remains a hypothesis until tested as described here, and the mappings in the aperture tiers are hypotheses under <span class="arithmatex">\(H_1\)</span>.
+* <strong>(C) Not claimed:</strong> anything about consciousness, its evolution or trajectory, or what the framework brings about. Nothing in this protocol or the corpus asserts such claims, and no result described here would establish them.</p>
+<p><strong>Site independence.</strong> The framework does not depend on any particular site or research program. Any site that meets the requirements of the relevant stage may serve as a test site, and sites may be chosen or replaced over time. Studies at a site are of two kinds:
+* <strong>Confirmatory studies</strong> use the pre-registered, blinded procedures of Stages III–IV, including holdout protection.
+* <strong>Exploratory studies</strong> are descriptive and hypothesis-generating. They may be open, local, and practice-centred, but their results are not cited as confirmation of <span class="arithmatex">\(H_1\)</span> or of any spine prediction. An exploratory study that uses the framework at a site makes that site permanently ineligible for confirmatory use (Part 2 below).</p>
+<p><strong>Eligibility for confirmatory testing: two-part site assessment.</strong> Blindness to a site is a matter of degree, not a yes-or-no property. Every site considered for confirmatory use as the Stage III held-out site <span class="arithmatex">\(\mathcal{M}_{\mathrm{test}}\)</span> is assessed in two parts, evaluator exposure (Part 1) and framework exposure (Part 2), and is eligible only if it passes both.</p>
+<p><em>Sequence.</em> (0) The full audit package (§4) has passed Stage II at the pinned versions and is frozen; its hash is recorded in the sealed assessment. (i) Before any data are collected: Part 2 and Part 1 item 1. (ii) A candidate package is compiled. (iii) Part 1 items 2 and 3 are run on the candidate package. (iv) If the site passes, the package is frozen as <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span>, and Part 2 is repeated. (v) Part 2 is repeated immediately before evaluation, and Stage III evaluation follows.</p>
+<p><em>Lock.</em> From step (0) until evaluation is complete, the audit package is not revised. A repeated Stage II (Stage III item 2) consists of the two consecutive zero-context audits of Stage II item 1, for the replacement family only, on the frozen package, and may only confirm that package. If the repeated audits do not pass, the replacement version is not used, unless the package is revised. Any revision of the package voids the assessment, and the sequence restarts at step (0). Benchmarks A–C are not a gate: after a replacement, their agreement is recomputed from the replacement family's new results together with the existing results of the other two families, and reported.</p>
+<p><em>Sealing.</em> From the moment a site is first considered for confirmatory use, its identity is sealed from everyone who authors or revises the audit package. Site selection, the probes of Part 1, and custody of the sealed record are carried out by people who are not authors of the audit package. Everyone who knows a candidate site's identity is recorded in the sealed assessment.</p>
+<p><em>Record.</em> The full assessment, its threshold and scoring scale, and its log are pre-registered sealed (for example as a timestamped hash, or in an embargoed registry) and kept outside the conditioning corpus. Before evaluation is complete, only a summary that does not identify the site is published (see Data ethics below).</p>
+<ul>
+<li><strong>Part 1, evaluator exposure:</strong> what each evaluating model, at the exact version pinned for Stage III (Stage III item 2), could know or infer about the site.</li>
+<li><em>Training cutoff.</em> Each model's stated cutoff is compared with the date of the first public record that links the site to the framework. Stated cutoffs are treated as approximate, because later material can enter a model through further training. A model is classed as exposed if that record is dated before its stated cutoff, or within a margin after it declared in the sealed assessment. An exposed model must meet a stricter identification threshold in item 2, also declared in the sealed assessment. Records that link the site to the study are not made public before evaluation is complete (Data ethics).</li>
+<li><em>Identification probes.</em> The candidate package is tested in separate probe sessions at the same pinned versions, both unconditioned and conditioned on the conditioning corpus, which are asked to identify the site. Responses are scored on a scale declared in the sealed assessment, which counts identification coarser than exact identification as well as exact identification. Provider settings that do not retain submitted data are used where available. Probe sessions are discarded and never become evaluating sessions.</li>
+<li><em>De-identification.</em> Measures that reduce identifiability (for example cropping, resampling, removal of metadata) are declared in the sealed assessment, are identical for every model and every arm of §3.1, and are stated with their residual risk and their effect on the information the Stage III coordinates require. Measures chosen for a particular site appear only in the sealed assessment, never in this protocol.</li>
+</ul>
+<p>The site passes Part 1 only if, for every evaluating model, identification is below the pre-declared threshold that applies to it (item 1). Otherwise the site is ineligible. No model is replaced or dropped after the probes, except the replacement of a retired version under Stage III item 2; if the replacement does not pass Part 1, the site is ineligible. Residual evaluator exposure is reported with the results.
+* <strong>Part 2, framework exposure:</strong> whether the site has shaped, or been shaped by, the framework. A site is exposed, and ineligible, if its design, operation, or exploratory record has used the framework's vocabulary or methods, or if it informed the selection or specification of the spine, of any aperture, or of any other document of the audit package (§4), in this or any earlier revision. Stage III convergence on such a site would be circular, and no property of the evaluating models (Part 1) removes this exposure. To make this checkable, everyone who authors or selects material for the audit package, including model sessions whose inputs are logged, makes a dated declaration of the sites that informed it. For revisions made before this rule, the known human authors make retrospective declarations, checked against the program's records. The rule covers every revision of every document of the audit package. Where provenance cannot be established, the site is treated as exposed, except that for model sessions whose inputs were not logged, a site counts as exposed only if it was named or described in the program's records, communications, or logged sessions dated before the document concerned; the custodian determines this from those records. The provenance declarations are kept in the sealed record, outside the audit package; they are never shown to any model session, and a named human custodian checks them.</p>
+<p><em>Scope.</em> The assessment applies to the Stage III held-out site. Where Stage IV tests Stage III predictions against sensor streams from that site, those streams are withheld until Stage III evaluation is complete. Stage IV tests on other systems follow the designs of the withheld procedures annex. Exposure under both parts is declared and logged, in the sealed record, for every site considered for confirmatory use.</p>
+<p><strong>Use before verification.</strong> The framework may be used as a working language for design, practice, and coordination before or without empirical confirmation. Such use is legitimate in its own terms but is not evidence for <span class="arithmatex">\(H_1\)</span>, and it is described without claims beyond kind (B) above.</p>
+<p><strong>Data ethics.</strong> Data involving people are collected only with informed consent and appropriate ethical review. Data are de-identified before any publication. Nothing that could identify a blinded test site is published before its evaluation is complete.</p>
+<hr />
+<h2 id="1-architectural-premise-formal-hypotheses">1. Architectural Premise &amp; Formal Hypotheses<a class="headerlink" href="#1-architectural-premise-formal-hypotheses" title="Permanent link">&para;</a></h2>
+<h3 id="11-separation-of-the-invariant-spine-mathcalt-from-evolvable-aperture-basis-sets-mathcale_km">1.1 Separation of the Invariant Spine (<span class="arithmatex">\(\mathcal{T}\)</span>) from Evolvable Aperture Basis Sets (<span class="arithmatex">\(\{\mathcal{E}_{k,m}\}\)</span>)<a class="headerlink" href="#11-separation-of-the-invariant-spine-mathcalt-from-evolvable-aperture-basis-sets-mathcale_km" title="Permanent link">&para;</a></h3>
+<p>To prevent category conflation between universal mathematical laws and domain-specific interpretive lenses, the experimental architecture distinguishes two formal layers:
+1. <strong>The Immutable Mathematical Spine (<span class="arithmatex">\(\mathcal{T}\)</span>):</strong> The 39 equation blocks across coordinates <span class="arithmatex">\(O_0 \to O_\Omega\)</span> locked in <code>foundational-manifold-2026-10-20-r7.json</code> and established as jointly satisfiable in <code>foundational-manifold-companion-2026-10-20-r10.md</code> (with exact symbolic verification of all closed-form PDE/algebraic sectors and numerical verification of overlap flux and second-fundamental-form convexity in <code>e2e_5_11.py</code>, <code>flux.py</code>, and <code>convex.py</code>, subject to the explicit non-closed-form caveats for the curved-domain Neumann mode <span class="arithmatex">\(\phi_1\)</span>, the Rosenblatt copula maps, rim rounding, and the scale argument for geodesic uniqueness recorded in <code>r10</code> §5.11–§5.12). Spine <span class="arithmatex">\(\mathcal{T}\)</span> is the invariant candidate mediating structure under empirical test.
+2. <strong>Evolvable Orthogonal Aperture Basis Sets (<span class="arithmatex">\(\mathcal{B} = \{\mathcal{E}_{k,m}\}\)</span>):</strong> A structured collection of epistemological, physical, biological, somatic, and expressive specifications (instantiated in the current reference corpus as a symmetric <span class="arithmatex">\(5 \times 4 = 20\)</span> basis <span class="arithmatex">\(\mathcal{B}_0\)</span> across five scale tiers <span class="arithmatex">\(k \in \{1,\dots,5\}\)</span> and four functional homology slots <span class="arithmatex">\(m \in \{1,\dots,4\}\)</span>). The design assumes, and Benchmark A measures rather than presupposes, that the native surface lexicons <span class="arithmatex">\(\mathcal{L}_{k,m}\)</span> and <span class="arithmatex">\(\mathcal{L}_{k',m'}\)</span> of distinct apertures have low unmediated pairwise overlap, quantified by a lexical-overlap score <span class="arithmatex">\(\ell_{\mathrm{lex}}(\mathcal{L}_{k,m}, \mathcal{L}_{k',m'}) \in [0,1]\)</span> computed on spine-free primary-source text (the symbol <span class="arithmatex">\(\mathcal{I}\)</span> is reserved for the <code>r7</code> mutual information).</p>
+<p>While Spine <span class="arithmatex">\(\mathcal{T}\)</span> remains fixed within an epoch, the aperture basis <span class="arithmatex">\(\mathcal{B}\)</span> is <strong>substitutable</strong>: any slot may be re-instantiated with another discipline or tradition that addresses the same structural problem (<span class="arithmatex">\(\mathcal{B}_0 \to \mathcal{B}'\)</span>), changing the surface projection coordinates while, under <span class="arithmatex">\(H_1\)</span>, preserving the operator homomorphisms into <span class="arithmatex">\(\mathcal{T}\)</span>.</p>
+<h3 id="12-primary-hypothesis-h_1-the-orthogonal-functor-cross-substrate-invariance-hypothesis">1.2 Primary Hypothesis (<span class="arithmatex">\(H_1\)</span>: The Orthogonal Functor &amp; Cross-Substrate Invariance Hypothesis)<a class="headerlink" href="#12-primary-hypothesis-h_1-the-orthogonal-functor-cross-substrate-invariance-hypothesis" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong><span class="arithmatex">\(H_1\)</span> (Latent Dynamical Isomorphism):</strong> Diverse scientific disciplines, non-Cartesian philosophical ontologies, process-primacy grammars, and embodied somatic practices independently formalized operational calculi mapped via Spine <span class="arithmatex">\(\mathcal{T}\)</span> to the <strong>same six structural problems of open, non-equilibrium, boundary-maintaining dynamical systems</strong>: across all nine coordinates <span class="arithmatex">\(O_0 \to O_\Omega\)</span>, with empirical domains declared in Branch II of Spine <span class="arithmatex">\(\mathcal{T}\)</span> (a bounded non-equilibrium steady state) and observed on finite windows, and with the Tier 1 ontological grammars and the provisionally homological apertures 4.3, 5.2, 5.3, and 5.4 mapping homologically (<code>aperture_generation_guidance.md</code> §2.3).</p>
+<p>If <span class="arithmatex">\(H_1\)</span> holds, conditioning independent foundational model architectures on Spine <span class="arithmatex">\(\mathcal{T}\)</span> and a site-blind orthogonal aperture basis <span class="arithmatex">\(\mathcal{B}\)</span> makes explicit a <strong>structure-preserving functor</strong> (<span class="arithmatex">\(\mathcal{L}_{k,m} \leftrightarrow \mathcal{T} \leftrightarrow \mathcal{L}_{k',m'}\)</span>). Routing cross-domain translation and multimodal empirical observation through <span class="arithmatex">\(\mathcal{T}\)</span> yields:
+1. Statistically significant inter-architectural convergence when decomposing held-out multimodal field data <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span>;
+2. Invariance of operator assignments under basis substitutions (<span class="arithmatex">\(\mathcal{B}_0 \to \mathcal{B}'\)</span>); and
+3. Quantitative alignment with external physical, ecological, physiological, and kinematic sensor telemetry from the empirically declared apertures.</p>
+</blockquote>
+<h3 id="13-null-hypothesis-h_0-post-hoc-associative-compliance">1.3 Null Hypothesis (<span class="arithmatex">\(H_0\)</span>: Post-Hoc Associative Compliance)<a class="headerlink" href="#13-null-hypothesis-h_0-post-hoc-associative-compliance" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong><span class="arithmatex">\(H_0\)</span> (Unconstrained Linguistic Projection):</strong> Cross-domain mappings between Spine <span class="arithmatex">\(\mathcal{T}\)</span>, the aperture basis <span class="arithmatex">\(\mathcal{B}\)</span>, and empirical observations are artifacts of surface linguistic fluency and post-hoc metaphorical compliance. Under <span class="arithmatex">\(H_0\)</span>:
+1. Independent model architectures audited in zero-context sessions will fail to converge above chance on operator assignments, eigenvalue sign pairings, or stability bounds when presented with held-out multimodal data <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span>;
+2. Ablating or scrambling the mathematical constraints in <span class="arithmatex">\(\mathcal{T}\)</span> (e.g., replacing <code>r7</code> with an inconsistent specification that violates conservation laws, unimodular volume-shear isolation, or the branch-appropriate asymptotics at <span class="arithmatex">\(O_\Omega\)</span>, homothetic stationarity in Branch I or the bounded steady state in Branch II) will produce no measurable degradation in cross-domain coherence or inter-rater convergence; and
+3. Quantitative parameter trajectories extracted via <span class="arithmatex">\(\mathcal{T}\)</span> will fail to match external physical and biometric sensor measurements.</p>
+</blockquote>
+<h3 id="14-conditioning-corpus-and-withheld-annexes">1.4 Conditioning Corpus and Withheld Annexes<a class="headerlink" href="#14-conditioning-corpus-and-withheld-annexes" title="Permanent link">&para;</a></h3>
+<p>The <strong>Stage III conditioning corpus</strong> consists of exactly nine documents: <code>foundational-manifold-2026-10-20-r7.json</code>, <code>foundational-manifold-companion-2026-10-20-r10.md</code>, <code>aperture_generation_guidance.md</code>, <code>empirical_validation_protocol.md</code>, and <code>tier_1_ontological_grammars.md</code> through <code>tier_5_expressive_collective_symbiosis.md</code>. Within this corpus, the mappings between apertures and Spine <span class="arithmatex">\(\mathcal{T}\)</span> are asserted only as hypotheses under <span class="arithmatex">\(H_1\)</span>. The spine's verification script, <code>r10_branch2_witness_check.py</code>, accompanies the spine in the audit package and is not part of the conditioning corpus.</p>
+<p>Two further documents are <strong>withheld from Stage III conditioning</strong> and are audited in Stages I and II under the same four axes:
+* <code>annex_a_auditor_motif_hygiene.md</code> — auditor-only reference for holdout-leakage review;
+* <code>annex_b_stage_iv_sensor_procedures.md</code> — concrete Stage IV test procedures.</p>
+<p>No conditioning document reproduces or paraphrases annex content beyond a pointer to its existence.</p>
+<hr />
+<h2 id="2-the-four-stage-validation-architecture">2. The Four-Stage Validation Architecture<a class="headerlink" href="#2-the-four-stage-validation-architecture" title="Permanent link">&para;</a></h2>
+<p>To test <span class="arithmatex">\(H_1\)</span> against <span class="arithmatex">\(H_0\)</span> without circularity, context decay, or data contamination, the research program is organized into four sequential stages:</p>
+<h3 id="stage-i-rotating-peer-audit-iterative-shear-elimination">Stage I — Rotating Peer Audit &amp; Iterative Shear Elimination<a class="headerlink" href="#stage-i-rotating-peer-audit-iterative-shear-elimination" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Locked Mathematical Spine:</strong> Maintain strict invariance, within an epoch, of <code>foundational-manifold-2026-10-20-r7.json</code> and <code>foundational-manifold-companion-2026-10-20-r10.md</code>. The Branch I witnesses of <code>r10</code> §5.1–§5.12 carry the r9 verification (36 checks in <code>e2e_5_11.py</code>, with the caveats of §5.12); the Branch II witness of <code>r10</code> §5.13 is verified by <code>r10_branch2_witness_check.py</code> (40 exact symbolic checks), which accompanies the spine.
+1a. <strong>Epochs and pre-registration:</strong> the spine may be revised between epochs (<span class="arithmatex">\(\mathcal{T}^{(r)} \to \mathcal{T}^{(r+1)}\)</span>) only on the basis of internal mathematical consistency and Stage I/II structural review, never on Stage III or Stage IV holdout or sensor data. Each epoch's spine is frozen and pre-registered before any blind evaluation, and <span class="arithmatex">\(H_1\)</span> is tested against that frozen spine. A revised spine is audited on its own (two consecutive clean fresh passes on the spine package) before any aperture is mapped onto it.</li>
+<li><strong>Rotating Author–Auditor Audit:</strong> An authoring instance (Instance A) revises the twelve-file audit package (the nine-document conditioning corpus of §1.4, both withheld annexes, and the spine's verification script). A fresh, zero-context auditing instance (Instance B) audits the package and returns findings graded High, Medium, or Low. Instance A revises until that Instance B reports zero High and zero Medium findings. Instance B then becomes the authoring instance, and a newly instantiated, zero-context Instance B audits the package. Prior audit reports, revision logs, and deliberations are never supplied to a fresh Instance B.</li>
+<li><strong>Four-Axis Diagnostic Iteration:</strong> Audits apply the four axes defined in <code>aperture_generation_guidance.md</code> §6:</li>
+<li><em>Axis I (Mathematical &amp; Indexical Fidelity):</em> Exact alignment of every equation, tensor index, contraction, standing hypothesis, and asymptotic limit with <code>r7</code> and <code>r10</code>, without universalizing witness-specific profiles or numerical ranges (<code>r10</code> §5.10–§5.12) into general axioms, and with each aperture's declarations (<code>aperture_generation_guidance.md</code> §2.3) used consistently at every coordinate.</li>
+<li><em>Axis II (Thermodynamic &amp; Dynamical Completeness):</em> Preservation of openness at every coordinate including <span class="arithmatex">\(O_\Omega\)</span> (<span class="arithmatex">\(\Theta_E &gt; 0\)</span>, <span class="arithmatex">\(\dot{s}_{\mathrm{prod}} = -\beta_{\mathrm{th}}J_E^\mu\nabla_\mu\mathcal{F} &gt; 0\)</span>, <span class="arithmatex">\(\dot{W}_{\mathrm{tot}} &gt; 0\)</span> in both branches; <span class="arithmatex">\(\theta &gt; 0\)</span> and <span class="arithmatex">\(\dot{W}_{\mathrm{ext}} &gt; 0\)</span> in Branch I only, with <span class="arithmatex">\(\theta \ge 0\)</span>, <span class="arithmatex">\(\dot{W}_{\mathrm{ext}} \to 0\)</span> in Branch II), branch declared before every test, pairing of feed-forward stretching (<span class="arithmatex">\(m_+ &gt; 0\)</span>) with regulatory damping/folding (<span class="arithmatex">\(\gamma_\sigma &gt; 0, \; m_- &lt; 0\)</span> under <span class="arithmatex">\(M^{(ij)} \neq 0\)</span>), strict separation of the <span class="arithmatex">\(\tau \to \infty\)</span> asymptotics of either branch from periodic cycles, and formulation of finite-window claims as rate, residual, or sign tests.</li>
+<li><em>Axis III (Epistemological Orthogonality &amp; Lexicon Isolation):</em> Absence of reductive syncretism, cross-aperture vocabulary contamination, and circularity between the conditioning corpus and the hypotheses under test.</li>
+<li><em>Axis IV (Zero Direct or Indirect Holdout Leakage):</em> Complete removal of any geographic proper nouns, regional linguistic signaling, biographical context, or cross-tier structural-proxy motifs that could telegraph a held-out empirical test site <span class="arithmatex">\(\mathcal{M}_{\mathrm{test}}\)</span>.</li>
+<li><strong>Stage I Gate:</strong> Stage I is complete when <strong>two consecutive, independent, zero-context Instance B audits</strong> each report zero High and zero Medium findings on the same package.</li>
+</ol>
+<h3 id="stage-ii-cross-architecture-theoretical-consensus-ablation-benchmarks">Stage II — Cross-Architecture Theoretical Consensus &amp; Ablation Benchmarks<a class="headerlink" href="#stage-ii-cross-architecture-theoretical-consensus-ablation-benchmarks" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Multi-Family Adversarial Review:</strong> Submit the Stage I consensus corpus to newly instantiated, zero-context sessions across three independent foundational model families: <strong>Gemini Argon 4</strong>, <strong>Claude Opus 5.5</strong>, and <strong>GPT-6 Astra</strong>, each at an exact version, recorded. Apply the Stage I rotation and gate with each architecture in turn: the package advances when two consecutive, independent, zero-context audits from each architecture report zero High and zero Medium findings.</li>
+<li><strong>Controlled Theoretical Benchmarks (Pre-Empirical):</strong> Execute three quantitative benchmarks across fresh instances of all three architectures, at the versions recorded under item 1:</li>
+<li><em>Benchmark A (Blind Operator Assignment):</em> Present anonymized phenomenon descriptions alongside anonymized equations from <code>r7</code>, measuring inter-architectural assignment agreement via <strong>Fleiss's Kappa (<span class="arithmatex">\(\kappa\)</span>)</strong>. Stimuli are drawn from independent primary-source disciplinary texts (or written by writers blinded to Spine <span class="arithmatex">\(\mathcal{T}\)</span>), never from the aperture specifications, and are stripped of all spine-derived vocabulary before presentation. A quantitative lexical-overlap score between each stimulus and each candidate equation's surrounding text is recorded as a control covariate, so that agreement driven by lexical matching can be separated from structural assignment.</li>
+<li><em>Benchmark B (Multi-Hop Functorial Round-Trip):</em> Measure structural and mathematical preservation across multi-hop translations routed through Spine <span class="arithmatex">\(\mathcal{T}\)</span> (<span class="arithmatex">\(\mathcal{E}_{k,m} \to \mathcal{T} \to \mathcal{E}_{k',m'} \to \mathcal{T} \to \mathcal{E}_{k,m}\)</span>) across both horizontal coordinate progressions (<span class="arithmatex">\(O_0 \to O_\Omega\)</span>) and vertical slot homologies (<span class="arithmatex">\(1.m \leftrightarrow 2.m \leftrightarrow 3.m \leftrightarrow 4.m \leftrightarrow 5.m\)</span>), compared against unmediated translation and translation mediated by an ablated/inconsistent spine <span class="arithmatex">\(\mathcal{T}_{\mathrm{ablated}}\)</span>.</li>
+<li><em>Benchmark C (Bioregional Basis Substitution):</em> Provide the models with <code>aperture_generation_guidance.md</code> and a synthetic profile of a different linguistic/ecological region, testing whether independent architectures generate structurally isomorphic aperture replacements (<span class="arithmatex">\(\mathcal{B}_0 \to \mathcal{B}'\)</span>) that map to the same operators in <span class="arithmatex">\(\mathcal{T}\)</span>.</li>
+</ol>
+<h3 id="stage-iii-blind-out-of-distribution-convergence-on-held-out-multimodal-field-data-mathcald_mathrmtest">Stage III — Blind Out-of-Distribution Convergence on Held-Out Multimodal Field Data (<span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span>)<a class="headerlink" href="#stage-iii-blind-out-of-distribution-convergence-on-held-out-multimodal-field-data-mathcald_mathrmtest" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Held-Out Multimodal Field Package (<span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span>):</strong> Following the sequence of the §0 site assessment, compile a candidate standardized empirical dataset from a real-world site <span class="arithmatex">\(\mathcal{M}_{\mathrm{test}}\)</span> that has passed Part 2 and Part 1 item 1, and freeze it as <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span> only after the site passes Part 1 items 2 and 3 on it. The dataset comprises raw video/optical frames, broadband acoustic recordings, seasonal/diurnal phase logs, and boundary geometry.</li>
+<li><strong>Identical Zero-Shot Evaluation:</strong> Present <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span> identically to fresh sessions of <strong>Gemini Argon 4</strong>, <strong>Claude Opus 5.5</strong>, and <strong>GPT-6 Astra</strong> conditioned <em>solely</em> on the locked nine-document conditioning corpus of §1.4 (excluding both withheld annexes).</li>
+<li><em>Pinned versions:</em> each family is used at the exact version pinned in the sealed §0 assessment. That version has passed Stage II, or a repeated Stage II as defined in §0 (<em>Lock</em>) is run for it. The probes of §0 Part 1 and all three arms of §3.1 use the same versions. If a pinned version is retired before evaluation, its replacement repeats §0 Part 1 and the Stage II gate before use. Where a version cannot be retained after the study, replication is limited, and this is reported.</li>
+<li><em>Evaluation conditions:</em> web search, retrieval, and all other external tools are disabled for every evaluating session, in all three arms of §3.1, and for the §0 probes. When a retired version is replaced, a version that can be retained for replication is preferred.</li>
+<li><strong>Cross-Architecture Structural Convergence:</strong> Evaluate inter-model agreement across all nine coordinates <span class="arithmatex">\(O_0 \to O_\Omega\)</span> and all five scale tiers (<code>tier_1</code> through <code>tier_5</code>), including agreement on each empirical domain's declared branch and its Branch II asymptotic regime:</li>
+<li><strong><span class="arithmatex">\(O_0, O_1\)</span>:</strong> Identification of the domain's throughput, the expansion scalar <span class="arithmatex">\(\theta = \nabla_\mu J_{\mathrm{geom}}^\mu \ge 0\)</span> (<span class="arithmatex">\(&gt; 0\)</span> only in Branch I), the throughput rate <span class="arithmatex">\(\Theta_E = \dot{s}_{\mathrm{prod}}/s_0 &gt; 0\)</span>, total power <span class="arithmatex">\(\dot{W}_{\mathrm{tot}} = \dot{W}_{\mathrm{ext}} + \dot{W}_{\mathrm{diss}} &gt; 0\)</span>, the branch-appropriate current (<span class="arithmatex">\(J_E = J_{\mathrm{geom}}\)</span> in Branch I; <span class="arithmatex">\(J_E = J_W/p_0\)</span> in Branch II), and irreversible entropy production <span class="arithmatex">\(\dot{s}_{\mathrm{prod}} = -\beta_{\mathrm{th}}J_E^\mu\nabla_\mu\mathcal{F} &gt; 0\)</span>.</li>
+<li><strong><span class="arithmatex">\(O_2, O_3\)</span>:</strong> Decomposition of constraint precision <span class="arithmatex">\(\Pi_{\mu\nu} = \nabla_\mu\nabla_\nu\Phi\)</span>, unimodular volume-shear factorization <span class="arithmatex">\(g_{\mu\nu} = \Omega^2\hat{g}_{\mu\alpha}(\exp\hat{h})^\alpha_{\;\nu}\)</span> together with the traced elliptic <span class="arithmatex">\(\tau\)</span>-compatibility equation coupling <span class="arithmatex">\(\theta\)</span> to <span class="arithmatex">\(\xi_\alpha = \hat{\Pi}_{\alpha\lambda}\eta^\lambda\)</span>, the synchronous-gauge trajectory equation (geodesic under the default drive; cone-preserving declared drive otherwise), exponential shear relaxation <span class="arithmatex">\(\nabla_\tau\sigma^\mu_{\;\nu} = -\gamma_\sigma\sigma^\mu_{\;\nu} \to 0\)</span>, and consolidated hysteresis <span class="arithmatex">\(\mathcal{H}(\mathbf{x}, \tau), \; (\hat{g}_\infty(\mathbf{x}))_{\mu\nu} = \hat{g}_{\mu\alpha}(\mathbf{x})(\exp\hat{h}_\infty(\mathbf{x}))^\alpha_{\;\nu}\)</span>.</li>
+<li><strong><span class="arithmatex">\(O_4\)</span>:</strong> Identification of the spatial spectral low-pass projector <span class="arithmatex">\(\hat{\mathcal{P}}_{\Lambda_{\mathrm{gate}}} = \mathbf{1}_{(-\nabla^2 \le \Lambda_{\mathrm{gate}}^2)}\)</span> acting on <span class="arithmatex">\(\rho_{\mathrm{total}}(\tau)\)</span> to form global density <span class="arithmatex">\(Q(\mathbf{x}, \tau)\)</span> (<span class="arithmatex">\(\dot{W}_{\mathrm{var}} = \frac{1}{t_0\beta_{\mathrm{th}}}D_{\mathrm{KL}}(Q \parallel P) &gt; 0\)</span>), conserved Einstein-type boundary stress <span class="arithmatex">\(\nabla^2\xi_\nu + R_\nu^{\;\alpha}\xi_\alpha = 0 \iff \nabla^\mu T_{\mu\nu}^{\mathrm{mat}} = 0\)</span>, the reduction of the stress sector on flat physical metrics (<span class="arithmatex">\(G \equiv 0\)</span>, <span class="arithmatex">\(\xi\)</span> a Killing field), and, only for domains declaring a justified non-Euclidean material metric, candidate configurations where <span class="arithmatex">\(G_{\mu\nu} = \kappa_G T_{\mu\nu}^{\mathrm{mat}} \not\equiv 0\)</span> coexists with convex hysteresis <span class="arithmatex">\(\nabla_\alpha\nabla_\beta\mathcal{H} \succ 0\)</span> (whose existence in the hypothesis set is witnessed by the <code>r10</code> §5.11 and §5.13 models).</li>
+<li><strong><span class="arithmatex">\(O_5\)</span>:</strong> Localization of subsystem overlaps <span class="arithmatex">\(\mathcal{U}_{ij}\)</span> (geodesically convex for <span class="arithmatex">\(g^{(ij)}(\tau)\)</span>), Riemannian geometric-mean metrics <span class="arithmatex">\(g_{\mu\nu}^{(ij)} = (g^{(i)} \# g^{(j)})_{\mu\nu}\)</span> over <span class="arithmatex">\(\mathcal{K}_0\)</span>, network percolation <span class="arithmatex">\(\phi_{\mathrm{perc}}(\mathcal{K}) = \vert\mathcal{K}\vert/\vert\mathcal{K}_0\vert &gt; \phi_c\)</span>, and lossless Hodge-harmonic circulation <span class="arithmatex">\(\Delta_{\mathrm{Hodge}}\mathbf{J}_{\mathcal{M}}^{\mathrm{harm}} = 0\)</span> around non-trivial spatial cycles <span class="arithmatex">\(H^1_{\mathrm{dR}}(\mathcal{M}) \neq 0\)</span>.</li>
+<li><strong><span class="arithmatex">\(O_6\)</span>:</strong> Extraction of non-reciprocal phase-lead 1-forms <span class="arithmatex">\((J_{[i\to j]})_\nu = -(J_{[j\to i]})_\nu\)</span>, trace-free stretching/folding eigenvalue pairings under the non-degeneracy hypothesis (<span class="arithmatex">\(M^{(ij)}(\mathbf{x}) \neq 0 \; \forall \mathbf{x} \in \bar{\mathcal{U}}_{ij} \wedge \mathrm{Tr}\,M^{(ij)} = 0 \implies m_+ &gt; 0 &gt; m_-\)</span>), mutual-information growth under the flux-positivity hypothesis (<span class="arithmatex">\(\frac{d}{d\tau}\mathcal{I}(Q_i; Q_j) &gt; 0\)</span> for <span class="arithmatex">\(\langle i,j\rangle \in \mathcal{K}\)</span>), and evaluation of candidate overlap convexity bounds inspired by the <code>r10</code> §5.12 witness constraint <span class="arithmatex">\(a_\infty = 2s_\sigma/\gamma_\sigma &lt; a_c(E)\)</span>.</li>
+<li><strong><span class="arithmatex">\(O_7, O_\Omega\)</span>:</strong> Assessment of principal-bundle impedance decay <span class="arithmatex">\(\Vert\hat{\mathcal{E}}_\mu\Vert_{C^1(\mathcal{M})} \to 0 \implies [F_{\mu\nu}^{\mathrm{YM}}, \hat{\chi}] \to 0\)</span>, isotropy relaxation (<span class="arithmatex">\(\chi \to 1\)</span> in Branch I; <span class="arithmatex">\(\chi_E \to 1\)</span> in Branch II), active-to-hysteresis alignment <span class="arithmatex">\(D_{\mathrm{KL}}(\hat{\rho}_g(\tau) \parallel \hat{\rho}_{\mathcal{H}}(\tau)) \to 0\)</span>, and, as the <span class="arithmatex">\(\tau \to \infty\)</span> asymptotics of the declared branch rather than an observable of any finite record: in Branch II, <span class="arithmatex">\(\partial_\tau g_{\mu\nu} \to 0\)</span>, <span class="arithmatex">\(V_{\mathcal{M}} \to V_\infty\)</span>, and <span class="arithmatex">\(\hat{\mathbb{L}}_{\mathrm{stat}}\Psi \to 0\)</span>; in Branch I, homothetic stationarity <span class="arithmatex">\(\partial_\tau(\Omega^{-2}g_{\mu\nu}) \to 0\)</span> with <span class="arithmatex">\(\left.\hat{\mathbb{L}}_{\mathrm{stat}}(\mathbf{x})\Psi[g_{\mu\nu}, \mathcal{H}]\right\vert_{\mathcal{H}=\mathcal{H}_{\mathrm{sol}}[g]} = 0\)</span>.</li>
+</ol>
+<h3 id="stage-iv-longitudinal-physical-ecological-biometric-sensor-falsification">Stage IV — Longitudinal Physical, Ecological &amp; Biometric Sensor Falsification<a class="headerlink" href="#stage-iv-longitudinal-physical-ecological-biometric-sensor-falsification" title="Permanent link">&para;</a></h3>
+<p>Test the quantitative parameter trajectories and boundary-stability hypotheses predicted by the Stage III consensus models against independent physical and physiological sensor streams (Section 3.3; concrete procedures in the withheld <code>annex_b_stage_iv_sensor_procedures.md</code>). Every human-subject procedure keeps observer telemetry continuously active (§3.3).</p>
+<hr />
+<h2 id="3-epistemic-hierarchy-how-and-to-what-extent-this-protocol-validates-the-mathematical-skeleton">3. Epistemic Hierarchy: How and To What Extent This Protocol Validates the Mathematical Skeleton<a class="headerlink" href="#3-epistemic-hierarchy-how-and-to-what-extent-this-protocol-validates-the-mathematical-skeleton" title="Permanent link">&para;</a></h2>
+<p>A rigorous empirical program must state transparently what each stage proves and where external sensor falsification is required:</p>
+<h3 id="31-level-1-inter-architectural-deductive-observational-invariance-tested-in-stages-ii-iii">3.1 Level 1: Inter-Architectural Deductive &amp; Observational Invariance (Tested in Stages II &amp; III)<a class="headerlink" href="#31-level-1-inter-architectural-deductive-observational-invariance-tested-in-stages-ii-iii" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>What It Proves:</strong> That the mappings between Spine <span class="arithmatex">\(\mathcal{T}\)</span> (<span class="arithmatex">\(O_0 \to O_\Omega\)</span>), the 20 orthogonal apertures (<span class="arithmatex">\(\mathcal{B}_0\)</span>), and multimodal field scenes (<span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span>) are <strong>reproducible, architecture-invariant structural homomorphisms</strong> rather than idiosyncratic outputs of a single model or prompt history.</li>
+<li><strong>Three-Arm Experimental Control on <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span>:</strong></li>
+<li><em>Arm 1 (Unconditioned Baseline):</em> Models analyze <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span> across physical, ecological, somatic, and philosophical dimensions without <span class="arithmatex">\(\mathcal{T}\)</span> or <span class="arithmatex">\(\mathcal{B}_0\)</span>.</li>
+<li><em>Arm 2 (Ablated/Sheared Spine Control):</em> Models analyze <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span> conditioned on an internally inconsistent specification <span class="arithmatex">\(\mathcal{T}_{\mathrm{ablated}}\)</span> (e.g., reversing the sign of <span class="arithmatex">\(J_E^\mu\nabla_\mu\mathcal{F}\)</span>, or omitting trace-free coupling <span class="arithmatex">\(\mathrm{Tr}\,M^{(ij)} = 0\)</span>, both of which are wrong in either branch).</li>
+<li><em>Arm 3 (Verified Spine <span class="arithmatex">\(\mathcal{T}\)</span> + Basis <span class="arithmatex">\(\mathcal{B}_0\)</span>):</em> Models analyze <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span> conditioned on the locked nine-document conditioning corpus of §1.4.</li>
+<li><strong>Common conditions for the three arms:</strong> all three use the same frozen <span class="arithmatex">\(\mathcal{D}_{\mathrm{test}}\)</span>, the same de-identification (§0 Part 1 item 3), the same pinned versions, and the Stage III evaluation conditions (Stage III item 2).</li>
+<li><strong>Falsification Criterion:</strong> If Arm 3 does not yield a statistically significant increase in inter-architectural agreement (<span class="arithmatex">\(\Delta\kappa &gt; 0, \; p &lt; 0.01\)</span>) and deductive consistency over Arms 1 and 2, <span class="arithmatex">\(H_1\)</span> is falsified at Level 1.</li>
+</ul>
+<h3 id="32-level-2-mechanistic-representational-invariance-in-neural-substrates">3.2 Level 2: Mechanistic &amp; Representational Invariance in Neural Substrates<a class="headerlink" href="#32-level-2-mechanistic-representational-invariance-in-neural-substrates" title="Permanent link">&para;</a></h3>
+<p><em>Level 2 is a separate hypothesis about the internal representations of the evaluating models. It is not an empirical claim of Aperture 5.4, which is provisionally homological in this epoch.</em>
+* <strong>What It Tests:</strong> The open mechanistic hypothesis that Spine <span class="arithmatex">\(\mathcal{T}\)</span> functions inside transformer activation spaces analogously to a <strong>principal-bundle gauge connection (<span class="arithmatex">\(A_\mu\)</span> in <span class="arithmatex">\(O_7\)</span>)</strong> and <strong>parallel propagator (<span class="arithmatex">\(I_{\mu'}^{\;\mu}\)</span> in <span class="arithmatex">\(O_5\)</span>)</strong> that reduces representation shear between distant lexical clusters.
+* <strong>Falsifiable Predictions (Testable via Sparse Autoencoders &amp; Activation Geometry):</strong>
+  1. <em>Unprompted Latent Operator Overlap:</em> Presenting pure single-domain inputs (e.g., a pure Tier 1.1 relational-isthmus passage, a pure Tier 1.2 dual-cycle control passage, a pure Tier 1.3 direct/inverse process-syntax paradigm, and a pure differential-geometric <span class="arithmatex">\(O_5/O_6\)</span> derivation) in separate contexts will activate overlapping mid-to-late-layer relational feature circuits despite near-zero Layer-0 token overlap.
+  2. <em>Impedance Collapse Under <span class="arithmatex">\(\mathcal{T}\)</span>-Conditioning:</em> Conditioning on the verified <code>r7</code> spine measurably reduces residual-stream trajectory curvature and attention entropy during cross-domain synthesis (measured quantities hypothesized to behave as empirical proxies for the <span class="arithmatex">\(O_7\)</span> impedance <span class="arithmatex">\(\Vert\hat{\mathcal{E}}_\mu\Vert_{C^1}\)</span>, not identified with it) compared to unconditioned or <span class="arithmatex">\(\mathcal{T}_{\mathrm{ablated}}\)</span>-conditioned runs.</p>
+<h3 id="33-level-3-external-physical-biometric-sensor-falsification-tested-in-stage-iv">3.3 Level 3: External Physical &amp; Biometric Sensor Falsification (Tested in Stage IV)<a class="headerlink" href="#33-level-3-external-physical-biometric-sensor-falsification-tested-in-stage-iv" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Epistemic Boundary:</strong> High inter-model agreement in Stage III establishes <strong>inter-rater observational reliability</strong> (proving that <span class="arithmatex">\(\mathcal{T}\)</span> is a well-posed, reproducible coordinate system), but does not by itself prove that physical fluids, ecosystems, or human nervous systems obey the equations of <code>r7</code> and <code>r10</code>.</li>
+<li><strong>Direct Sensor Falsification Tests:</strong> Stage IV evaluates five families of quantitative predictions against multi-sensor telemetry from physical, ecological, and tissue systems. Human-subject tests are deferred in this epoch. Each family is formulated as within-window rate, residual, sign, or flux-prediction tests (<code>aperture_generation_guidance.md</code> §5.5), never as observation of the <span class="arithmatex">\(\tau \to \infty\)</span> horizon:</li>
+<li><strong><span class="arithmatex">\(O_3 / O_7\)</span>:</strong> exponential shear relaxation, tested directly on <span class="arithmatex">\(\sigma^\mu_{\;\nu}\)</span>, and decay of the Branch II anisotropy index <span class="arithmatex">\(\chi_E - 1\)</span> where <span class="arithmatex">\(\langle\Theta_E\rangle\)</span> is approximately constant.</li>
+<li><strong><span class="arithmatex">\(O_4\)</span>:</strong> spatial spectral gating and typical-set matching (deferred in this epoch; see Annex B).</li>
+<li><strong><span class="arithmatex">\(O_6 / O_7\)</span>:</strong> trace-free coupling spectra and positivity of open throughput during settled, actively regulated states.</li>
+<li><strong><span class="arithmatex">\(O_5\)</span>:</strong> overlap geodesic convexity, together with an extra-spinal shear-threshold conjecture motivated by the <code>r10</code> §5.12 witness design constraint.</li>
+<li>
+<p><strong><span class="arithmatex">\(O_1 / O_4\)</span>:</strong> the flux-prediction test of the binding closure: a declared parametric transport tensor, with independently estimated parameters, predicts an independently measured free-energy flux.</p>
+</li>
+<li>
+<p><strong>Untested in this epoch:</strong> the <span class="arithmatex">\(O_2\)</span> trajectory equation with a declared drive, <span class="arithmatex">\(O_4\)</span> gating (Test 2 deferred), and <span class="arithmatex">\(O_7\)</span> gauge transport; and Apertures 2.1, 2.3, 3.4, 4.2, 4.4, and 5.1, which no current test exercises. These are stated as untested, not as confirmed.</p>
+</li>
+<li>
+<p><strong>Observer telemetry (phase-state covariance as a design choice; applies whenever human-subject tests are included, and none are in this epoch):</strong> every measurement involving a human participant is made by a system that itself has a state. Human protocols therefore keep wearable telemetry (for example EEG, heart-rate variability, motion, muscle activity, respiration) continuously active across two declared phases: <strong>Phase 1, primary task or perturbation exposure</strong> (<span class="arithmatex">\(\tau \in [\tau_1, \tau_2]\)</span>), and <strong>Phase 2, post-exposure consolidation and structured state reporting</strong> (<span class="arithmatex">\(\tau \in [\tau_2, \tau_3]\)</span>). The observer's state is recorded and analyzed with the same within-window tests as the observed system; no particular practice, modality of reporting, or theory of the observer is assumed.</p>
+</li>
+</ul>
+<p>Concrete procedures, instrumentation, and falsification criteria are specified in the withheld <code>annex_b_stage_iv_sensor_procedures.md</code>.</p>
+<hr />
+<h2 id="4-complete-stage-i-stage-ii-audit-package-inventory-twelve-files">4. Complete Stage I / Stage II Audit Package Inventory (Twelve Files)<a class="headerlink" href="#4-complete-stage-i-stage-ii-audit-package-inventory-twelve-files" title="Permanent link">&para;</a></h2>
+<p>The audit package consists of the nine-document conditioning corpus (§1.4), two withheld annexes, and the spine's verification script:</p>
+<ol>
+<li><code>foundational-manifold-2026-10-20-r7.json</code> — <strong>Spine <span class="arithmatex">\(\mathcal{T}\)</span>, locked for this epoch (Specification):</strong> Formal JSON specification of coordinates <span class="arithmatex">\(O_0 \to O_\Omega\)</span> (39 equation blocks across the 9 coordinate arrays, regularity classes, standing hypotheses, and index conventions).</li>
+<li><code>foundational-manifold-companion-2026-10-20-r10.md</code> — <strong>Spine <span class="arithmatex">\(\mathcal{T}\)</span>, locked for this epoch (Companion &amp; Witness Proofs):</strong> Design rationale (Decisions 1–6), master symbol table, Branch I witnesses (§5.1–§5.12, with the r9 verification suite and its caveats) and the Branch II witness (§5.13, verified by the accompanying <code>r10_branch2_witness_check.py</code>).</li>
+<li><code>aperture_generation_guidance.md</code> — <strong>Methodological Guide:</strong> Principles separating Spine <span class="arithmatex">\(\mathcal{T}\)</span> from evolvable aperture basis sets <span class="arithmatex">\(\{\mathcal{E}_{k,m}\}\)</span>, the <span class="arithmatex">\(5 \times 4\)</span> functional homology heuristic, per-aperture declarations, basis-substitution rules, zero-leakage holdout standards, and the Four-Axis Audit Protocol.</li>
+<li><code>empirical_validation_protocol.md</code> — <strong>Experimental Protocol:</strong> This four-stage validation architecture and three-level epistemic falsification framework (Stage IV procedures are withheld in document 11).</li>
+<li><code>tier_1_ontological_grammars.md</code> — <strong>Tier 1 (Foundational Epistemological &amp; Linguistic Ontologies):</strong></li>
+<li><em>1.1</em> Akbarian Relational Metaphysics (<span class="arithmatex">\(\mathcal{E}_{\mathrm{Akbarian}}\)</span>)</li>
+<li><em>1.2</em> Wu Xing Five-Phase Dynamics (<span class="arithmatex">\(\mathcal{E}_{\mathrm{WuXing}}\)</span>)</li>
+<li><em>1.3</em> Algonquian Process-Relational Syntax (<span class="arithmatex">\(\mathcal{E}_{\mathrm{Algonquian}}\)</span>)</li>
+<li><em>1.4</em> Huayan Interpenetration &amp; Dependent Co-Arising (<span class="arithmatex">\(\mathcal{E}_{\mathrm{Buddhist}}\)</span>)</li>
+<li><code>tier_2_abiotic_continuum_physics.md</code> — <strong>Tier 2 (Abiotic, Continuum &amp; Tectonic Physics):</strong></li>
+<li><em>2.1</em> Condensed-Matter &amp; Phase Transition Physics (<span class="arithmatex">\(\mathcal{E}_{\mathrm{condensed}}\)</span>)</li>
+<li><em>2.2</em> Continuum Fluid &amp; Wave Mechanics (<span class="arithmatex">\(\mathcal{E}_{\mathrm{continuum}}\)</span>)</li>
+<li><em>2.3</em> Atmospheric Radiative &amp; Thermal Boundary Physics (<span class="arithmatex">\(\mathcal{E}_{\mathrm{radiative}}\)</span>)</li>
+<li><em>2.4</em> Geomorphic &amp; Structural Mechanics (<span class="arithmatex">\(\mathcal{E}_{\mathrm{tectonic}}\)</span>)</li>
+<li><code>tier_3_ecological_living_networks.md</code> — <strong>Tier 3 (Ecological, Metabolic &amp; Phenological Networks):</strong></li>
+<li><em>3.1</em> Vascular Plant Physiology &amp; Rhizosphere Coupling (<span class="arithmatex">\(\mathcal{E}_{\mathrm{botanical}}\)</span>)</li>
+<li><em>3.2</em> Movement Ecology &amp; Ecotone Foraging Dynamics (<span class="arithmatex">\(\mathcal{E}_{\mathrm{trophic}}\)</span>)</li>
+<li><em>3.3</em> Benthic &amp; Edaphic Biogeochemical Metabolism (<span class="arithmatex">\(\mathcal{E}_{\mathrm{metabolic}}\)</span>)</li>
+<li><em>3.4</em> Chronobiology &amp; Phenological Synchrony (<span class="arithmatex">\(\mathcal{E}_{\mathrm{chrono}}\)</span>)</li>
+<li><code>tier_4_somatic_contemplative_interiority.md</code> — <strong>Tier 4 (Somatic, Neuro-Attentional &amp; Affective Interiority):</strong></li>
+<li><em>4.1</em> Myofascial Biotensegrity &amp; Postural Mechanics (<span class="arithmatex">\(\mathcal{E}_{\mathrm{somatic}}\)</span>)</li>
+<li><em>4.2</em> Vestibular Equilibrium &amp; Sensorimotor Contact (<span class="arithmatex">\(\mathcal{E}_{\mathrm{kinesthetic}}\)</span>)</li>
+<li><em>4.3</em> Neuro-Attentional &amp; Autonomic Regulation (provisionally homological) (<span class="arithmatex">\(\mathcal{E}_{\mathrm{neuro}}\)</span>)</li>
+<li><em>4.4</em> Affective Regulation &amp; Psychophysiological Resilience (<span class="arithmatex">\(\mathcal{E}_{\mathrm{affective}}\)</span>)</li>
+<li><code>tier_5_expressive_collective_symbiosis.md</code> — <strong>Tier 5 (Acoustic, Poetic &amp; Cross-Substrate Symbiosis):</strong></li>
+<li><em>5.1</em> Environmental Acoustics &amp; Rhythmic Entrainment (<span class="arithmatex">\(\mathcal{E}_{\mathrm{acoustic}}\)</span>)</li>
+<li><em>5.2</em> Poetic Prosody &amp; Psycholinguistic Condensation (provisionally homological) (<span class="arithmatex">\(\mathcal{E}_{\mathrm{poetic}}\)</span>)</li>
+<li><em>5.3</em> Spatial Choreography &amp; Relational Kinesiology (provisionally homological) (<span class="arithmatex">\(\mathcal{E}_{\mathrm{choreographic}}\)</span>)</li>
+<li><em>5.4</em> Inter-Subjective &amp; Cross-Substrate Symbiosis (provisionally homological) (<span class="arithmatex">\(\mathcal{E}_{\mathrm{symbiotic}}\)</span>)</li>
+<li><code>annex_a_auditor_motif_hygiene.md</code> — <strong>Auditor-Only Annex (withheld from Stage III conditioning):</strong> Categories and rules used in holdout-leakage review.</li>
+<li><code>annex_b_stage_iv_sensor_procedures.md</code> — <strong>Stage IV Procedures Annex (withheld from Stage III conditioning):</strong> Instrumentation, protocols, and falsification criteria for the five Stage IV test families (Test 2 deferred in this epoch); audited in Stages I and II under all four axes.</li>
+<li><code>r10_branch2_witness_check.py</code> — <strong>Spine verification script (accompanies the spine; not conditioning):</strong> exact symbolic checks of the <code>r10</code> §5.13 Branch II witness and a Branch I regression.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="../../javascripts/mathjax/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
